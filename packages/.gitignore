@@ -22,3 +22,6 @@ exports
 zf5
 simple-form
 underscore-string-latest
+iron-layout
+iron-core
+iron-dynamic-template
