@@ -1,2 +1,9 @@
 template(name="home")
-    h3 Home
+    h2 Home
+    +posts
+
+template(name="posts")
+   each posts
+      h3 {{title}}
+      h4 {{subtitle}}
+      p {{content}}

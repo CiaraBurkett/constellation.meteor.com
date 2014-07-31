@@ -1,9 +1,9 @@
 template(name="new")
-   .newpost
-      form
-         label Title
-         input(type="text")
-         
-         textarea
-
-         input(type="submit", value="Add New Post")
+   .new
+      h2 Add a New Post
+      h3(class="title editable", contenteditable="true") Title of Your Post
+      h4(class="subtitle editable", contenteditable="true") Clever Subtitle to Draw in Readers
+      p(class="content editable", contenteditable="true").
+         Tell your story...
+      input(class="save", type="submit", value="Save Draft")
+      input(class="publish", type="submit", value="Submit Post!")
