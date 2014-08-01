@@ -1,3 +1,5 @@
+var editor = new MediumEditor('.editable');
+
 Template.new.events({
    'click .publish': function(event, template) {
       event.preventDefault();
