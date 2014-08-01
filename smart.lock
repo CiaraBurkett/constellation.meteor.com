@@ -13,7 +13,8 @@
       "roles": {},
       "bower": {},
       "sugar": {},
-      "harmony": {}
+      "harmony": {},
+      "medium-editor-updated": {}
     },
     "packages": {
       "scss": {
@@ -43,13 +44,13 @@
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.8.1",
-        "commit": "74e867557fd9cb81173e048e5f81cf4a0a1160a8"
+        "tag": "v0.8.2",
+        "commit": "05415a8891ea87a00fb1e2388585f2ca5a38e0da"
       },
       "spin": {
         "git": "https://github.com/SachaG/meteor-spin.git",
-        "tag": "v2.0.3",
-        "commit": "23c1145472a710d5c93fa4beaca4e576caeb2f24"
+        "tag": "v2.0.4",
+        "commit": "f7b1e12a7caff1283cdb3671a393c182d0ae9862"
       },
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
@@ -75,6 +76,11 @@
         "git": "https://github.com/mquandalle/meteor-harmony.git",
         "tag": "v1.2.1",
         "commit": "433d276ddcc61eb80606eb15f4552f4fc3fbb8ca"
+      },
+      "medium-editor-updated": {
+        "git": "https://github.com/donflopez/meteor-medium-editor.git",
+        "tag": "v1.2.0",
+        "commit": "6d2f34b560b2682341aae23fc78251ccea504cd8"
       },
       "iron-layout": {
         "git": "https://github.com/EventedMind/iron-layout.git",
